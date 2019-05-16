@@ -1,0 +1,59 @@
+.service {
+    padding: 38px 0 10px;
+    background-color: $color-11;
+
+    h3 {
+        margin-bottom: 44px;
+        padding-bottom: 30px;
+        font-size: 27px;
+
+        &::before {
+            bottom: 7px;
+        }
+
+        &::after {
+            bottom: 0;
+            width: 37px;
+            background-color: $color-11;
+        }
+    }
+
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .item {
+            margin-bottom: 0;
+
+            &::before {
+                width: 130px;
+            }
+
+            h3 {
+                margin: 25px 0 15px;
+                padding-bottom: 0;
+                font-size: 18.96px;
+                word-spacing: 2px;
+            }
+
+            p {
+                padding-bottom: 30px;
+                padding-left: 4px;
+                font-size: 13px;
+                letter-spacing: .027em;
+                line-height: 22px;
+            }
+
+            &.diagram::after {
+                top: 67px;
+                left: 2px;
+            }
+
+            &.people::after {
+                top: 67px;
+                left: 1px;
+            }
+        }
+    }
+}

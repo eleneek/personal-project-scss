@@ -1,3 +1,17 @@
-.header {
-    background: green;
+header {
+    padding: 28px 5px 34px;
+
+    .wrap {
+        width: 100%;
+        padding: 0 28px 0 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    span.hidden {
+        display: inline-block;
+        transform: translateY(3px);
+    }
 }

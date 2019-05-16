@@ -1,5 +1,72 @@
-.header {
-    width: 100%;
-    height: 200px;
-    background: red;
+header {
+    padding: 27px 0;
+    background: $color-1;
+
+    .wrap {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        color: $color-2;
+        font-family: 'Raleway', sans-serif;
+        font-size: 36px;
+        font-weight: 300;
+        letter-spacing: .6px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 27px;
+            min-height: 41.01px;
+            margin-right: -1px;
+            background-image: url(/images/logo.png);
+            background-repeat: no-repeat;
+        }
+    }
+
+    nav {
+        margin-right: 1px;
+        padding: 15px 0;
+
+        a {
+            display: inline-block;
+            margin-right: 36px;
+            color: $color-2;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    span.hidden {
+        display: none;
+        padding: 11.2px;
+        border: 1px solid $color-2;
+        outline: 1.8px solid $color-3;
+        background: $color-3;
+
+        div {
+            display: block;
+            width: 30px;
+            height: 2px;
+            margin-bottom: 3px;
+            background: $color-2;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
 }

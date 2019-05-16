@@ -1,0 +1,107 @@
+.service {
+    padding: 143px 0 150px;
+    background-color: $color-10;
+
+    & > h3 {
+        margin-bottom: 134px;
+        padding-bottom: 27px;
+        color: $color-2;
+        font-family: 'Raleway', sans-serif;
+
+        &::before {
+            bottom: 9px;
+            background-color: $color-6;
+        }
+
+        &::after {
+            bottom: 0;
+            width: 38px;
+            background-color: $color-10;
+            background-image: url(/images/service/services.svg);
+        }
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        width: 1173px;
+        margin: 0 auto;
+
+        .item {
+            position: relative;
+            width: 295px;
+            text-align: center;
+
+            &::before {
+                content: ' ';
+                display: inline-block;
+                width: 136px;
+                height: 163px;
+                background-image: url(/images/service/polygon.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+            }
+
+            &.active,
+            &:hover {
+
+                &::before {
+                    background-image: url(/images/service/polygon.svg), url(/images/service/polygon-fill.svg);
+                    background-position: center, center;
+                    background-size: 92%;
+                }
+            }
+
+            &::after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                top: 68px;
+                right: 0;
+                left: -4px;
+                width: 28px;
+                height: 26px;
+                margin: 0 auto;
+                background-image: url(/images/service/stat.svg);
+                background-repeat: no-repeat;
+            }
+
+            &.diagram::after {
+                top: 68px;
+                left: -4px;
+                background-image: url(/images/service/stat.svg);
+            }
+
+            &.people::after {
+                top: 71px;
+                left: -1px;
+                background-image: url(/images/service/visitors.svg);
+            }
+
+            &.sales::after {
+                top: 71px;
+                left: 1px;
+                background-image: url(/images/service/sales.svg);
+            }
+
+            h3 {
+                margin: 33px 0 15px;
+                color: $color-3;
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                margin-left: 1px;
+                color: $color-2;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                letter-spacing: .02em;
+                line-height: 22px;
+            }
+        }
+    }
+}

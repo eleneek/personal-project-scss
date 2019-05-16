@@ -1,0 +1,121 @@
+.about {
+    padding: 117px 0 76px;
+
+    h3 {
+        top: -43px;
+        margin-bottom: 6px;
+
+        &::before {
+            bottom: 10px;
+        }
+
+        &::after {
+            right: 10px;
+            bottom: 2px;
+        }
+    }
+
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        img {
+            margin-bottom: 42px;
+            padding-right: 0;
+        }
+
+        .information {
+            margin-left: -17px;
+
+            h4 {
+                margin-bottom: 19px;
+                padding-left: 2px;
+                font-size: 25px;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    margin-top: 19px;
+                    background: $color-13;
+                }
+            }
+
+            & > p {
+                display: none;
+                margin-bottom: 35px;
+            }
+
+            .secondary {
+                display: block;
+                font-size: 13px;
+                line-height: 23px;
+            }
+
+            .third {
+                display: none;
+            }
+
+            > div {
+                flex-direction: column;
+
+                div {
+                    flex: 0;
+                    margin-bottom: 45px;
+
+                    &::before {
+                        display: none;
+                    }
+
+                    &.map::before {
+                        display: none;
+                    }
+
+                    &.heart::before {
+                        display: none;
+                    }
+
+                    &.note::before {
+                        display: none;
+                    }
+
+                    &:nth-child(4) {
+                        display: none;
+                    }
+
+                    h6 {
+                        display: none;
+                    }
+
+                    p {
+                        position: relative;
+                        padding-left: 31px;
+
+                        &::before {
+                            content: '';
+                            display: inline-block;
+                            position: absolute;
+                            top: 3px;
+                            left: -1px;
+                            width: 16px;
+                            height: 16px;
+                            background-image: url(/images/about/check.png);
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+
+                & > a {
+                    display: block;
+                    width: 138px;
+                    height: 42px;
+                    margin-top: 63px;
+                    font-size: 13px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

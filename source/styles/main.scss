@@ -1,2 +1,12 @@
+@import 'reset';
+@import 'base';
+@import 'palette';
 @import 'media-queries';
-@import 'components/header/index.scss';
+
+// Componenets
+
+@import 'components/header/index';
+@import 'components/slider/index';
+@import 'components/about/index';
+@import 'components/service/index';
+@import 'components/portfolio/index';

@@ -4,10 +4,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Personal Project SCSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="header"></div>
+    <header>
+        <div class="wrap">
+            <a href="#" class="logo">Arry</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICES</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">TESTIMONIALS</a>
+                <a href="#">TEAM</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+            </nav>
+            <span class="hidden">
+                <div></div>
+                <div></div>
+                <div></div>
+            </span>
+        </div>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="wrapper">
+                <div class="item">
+                    <figure>
+                        <img src="/images/sample/sample1.jpg" alt="Image">
+                    </figure>
+                    <div class="text">
+                        <h4>Walk With Parry</h4>
+                        <h3>You Will Love It</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget faucibus
+                        </p>
+                        <p class="mobile">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                        </p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <a href="#" class="previous"></a>
+                <a href="#" class="next"></a>
+            </nav>
+        </section>
+        <section class="about">
+            <h3>WHO <span>WE ARE</span></h3>
+            <div class="wrap">
+                    <img src="/images/about/pc.png" alt="Image">
+                <div class="information">
+                    <h4>SOME WORDS ABOUT US</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In hendrerit consectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iacul elit, a venenatis purus nibh rutrum diam.
+                    </p>
+                    <p class="secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a conseq uat. In hendrerit cons <br> ectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iaculelit, a venenatis purus nibh rutrum diam Aene <br>
+                        an in purus bibendum, hendrerit dolor quis.
+                    </p>
+                    <p class="third">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a conseq uat. In hendrerit
+                    </p>
+                    <div>
+                        <div>
+                            <h6>FEATURES ONE</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="map">
+                            <h6>FEATURES TWO</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="heart">
+                            <h6>FEATURES THREE</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="note">
+                            <h6>FEATURES FOUR</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <h3>SERVICES</h3>
+            <div class="wrap">
+                <div class="item diagram active">
+                    <h3>OUTRANK COMPETITION</h3>
+                    <p>
+                        Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat.
+                    </p>
+                </div>
+                <div class="item people">
+                    <h3>MORE WEBSITE VISITORS</h3>
+                    <p>
+                        Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat.
+                    </p>
+                </div>
+                <div class="item sales">
+                    <h3>INCREASE SALES</h3>
+                    <p>
+                        Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+                <h3>PORTFOLIO</h3>
+                <div class="wrap">
+                    <div class="item col-2 active">
+                        <figure>
+                            <img src="/images/sample/big1.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view active"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="/images/sample/small1.png" alt="image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-2">
+                        <figure>
+                            <img src="/images/sample/big1.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="/images/sample/small1.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-2">
+                        <figure>
+                            <img src="images/sample/big1.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="/images/sample/small4.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <figure>
+                            <img src="/images/sample/small4.png" alt="Image">
+                        </figure>
+                        <div class="hover">
+                            <div class="icons">
+                                <a href="#" class="view"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                            <div class="footer">
+                                <h3>A WORK OF PHOTOGRAPHY</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
 </body>
 </html>
