@@ -1,12 +1,13 @@
 @import 'reset';
 @import 'base';
-@import 'palette';
 @import 'media-queries';
+@import 'palette';
 
 // Componenets
 
 @import 'components/header/index';
-@import 'components/slider/index';
+@import 'components/gallery/index';
 @import 'components/about/index';
 @import 'components/service/index';
 @import 'components/portfolio/index';
+@import 'components/titles/titles';

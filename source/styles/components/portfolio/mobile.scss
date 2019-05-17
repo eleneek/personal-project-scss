@@ -2,17 +2,17 @@
     padding: 39px 0 0;
 
     h3 {
-        margin-bottom: 63px;
-        padding-bottom: 0;
+        margin-bottom: 33px;
+        padding-bottom: 28px;
         font-size: 27px;
 
         &::before {
-            bottom: -22px;
+            bottom: 8px;
             width: 105px;
         }
 
         &::after {
-            bottom: -30px;
+            bottom: 0;
             left: -5px;
             width: 33px;
         }
@@ -65,7 +65,7 @@
                     padding: 13px 5px 11px;
 
                     h3 {
-                        margin-bottom: 6px;
+                        margin-bottom: -24px;
                         margin-left: -8px;
                         font-size: 13.99px;
                     }
